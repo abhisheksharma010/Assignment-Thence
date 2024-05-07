@@ -1,0 +1,107 @@
+.form-container {
+  text-align: center;
+}
+.form-container {
+  align-items: center;
+  width: 25vw;
+  margin: auto;
+}
+
+.login {
+  text-align: center;
+}
+.input-box {
+  width: 100%;
+  height: 72px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgb(246, 245, 245);
+  border-radius: 35px;
+  padding: 5px;
+  outline: none;
+  font-size: 1.2rem;
+  padding: 20px;
+}
+.main-heading-login {
+  font-family: cursive;
+  color: green;
+  margin: 20px 0px;
+  margin-top: 4vh;
+}
+
+.input-box:focus {
+  border: 2px solid rgb(124, 163, 254);
+
+  background-color: rgb(242, 251, 255);
+}
+.error-message {
+  width: 100%;
+  color: red;
+  margin: 5px;
+  font-size: 1rem;
+  text-align: left;
+}
+input:focus {
+  border: none;
+}
+.sub-heading-login {
+  font-size: 2.5rem;
+  font-weight: 590;
+  margin-bottom: 5vh;
+}
+
+.black-button-login {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 48px;
+  padding: 32px 48px;
+  text-align: center;
+  margin: 20px 12px;
+  font-size: 1.2rem;
+  align-items: center;
+
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-top: 4vh;
+}
+
+.ge-home {
+  border-radius: 50%;
+  width: 64px;
+  border: 1px solid rgb(193, 192, 192);
+  background-color: white;
+  font-size: 1.8rem;
+  height: 64px;
+}
+.black-button-login.disabled {
+  background-color: rgb(202, 198, 198);
+  color: white;
+  outline: none;
+  border: none;
+}
+.submitted-detail {
+  width: 50vw;
+  font-size: 1.8rem;
+  margin: 0px auto;
+  color: rgb(189, 185, 185);
+}
+.submitted {
+  align-items: center;
+  text-align: center;
+}
+.submitted img {
+  height: 100px;
+  width: 100px;
+  margin-top: 8vh;
+}
+.redirect {
+  font-size: 1.2rem;
+  margin-top: 8vh;
+  color: grey;
+}
+.redirect span {
+  color: black;
+  font-weight: bold;
+}

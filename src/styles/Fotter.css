@@ -1,0 +1,18 @@
+.fotter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 48px;
+  margin: 16px;
+  color: black;
+  border-radius: 48px;
+  background-color: rgb(245, 245, 245);
+  font-size: 1.3rem;
+}
+.fotter-button {
+  text-decoration: underline;
+  display: flex;
+}
+.fotter-button p {
+  margin: 22px 12px;
+}
